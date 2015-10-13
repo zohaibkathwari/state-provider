@@ -31,4 +31,5 @@ app.config(function ($stateProvider, $urlRouterProvider) {
                 $scope.things = ["A", "Set", "Of", "Things"];
             }
         });
+    console.info('Router Configured');
 });

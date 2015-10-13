@@ -2,3 +2,4 @@
 /*global define */
 /*global $, angular*/
 var app = angular.module('stateProviderApp', ['ui.router']);
+console.info('App instantiated');
