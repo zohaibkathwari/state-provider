@@ -1,0 +1,12 @@
+<div>
+    <h1>This is view1</h1>
+</div>
+<!-- partials/state1.html -->
+<h1>State 1</h1>
+<hr/>
+<a ui-sref="state1.list">Show List</a>
+<div ui-view></div>
+<h3>List of State 1 Items</h3>
+<ul>
+    <li ng-repeat="item in items">{{ item }}</li>
+</ul>
