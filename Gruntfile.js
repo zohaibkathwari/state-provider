@@ -7,7 +7,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         watch: {
             src: {
-                files: ['index.html']
+                files: ['index.html', 'src/partials/*.html', 'javascripts/*.js']
             }
         },
         browserSync: {
